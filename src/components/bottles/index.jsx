@@ -8,7 +8,7 @@ const fetchData = ( async () => {
 
 const Index = () => {
   return (
-    <div>Safrin</div>
+    <div></div>
 
     
 

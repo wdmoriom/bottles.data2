@@ -5,7 +5,8 @@
     "price": 15,
     "color": "Blue",
     "capacity": "1L",
-    "brand": "AquaPure"
+    "brand": "AquaPure",
+    "image_url": "https://example.com/images/aquapure_blue.jpg"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "price": 25,
     "color": "Black",
     "capacity": "1.5L",
-    "brand": "HydroMax"
+    "brand": "HydroMax",
+    "image_url": "https://example.com/images/hydromax_black.jpg"
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "price": 12,
     "color": "Green",
     "capacity": "750ml",
-    "brand": "EcoSip"
+    "brand": "EcoSip",
+    "image_url": "https://example.com/images/ecosip_green.jpg"
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "price": 30,
     "color": "Silver",
     "capacity": "1.2L",
-    "brand": "SteelWave"
+    "brand": "SteelWave",
+    "image_url": "https://example.com/images/steelwave_silver.jpg"
   },
   {
     "id": 5,
@@ -37,6 +41,7 @@
     "price": 20,
     "color": "Red",
     "capacity": "1L",
-    "brand": "ChillMate"
+    "brand": "ChillMate",
+    "image_url": "https://example.com/images/chillmate_red.jpg"
   }
 ]

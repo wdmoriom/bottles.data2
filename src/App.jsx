@@ -5,8 +5,10 @@ import Index from './components/bottles'
 import Bottles from './components/bottles/Bottles'
 
 
-const bottlesPromise = fetch('./Bottles.json').then(res => res.json())
-const bottlesPromise2 = fetch('http://localhost:3000/products').then(res => res.json())
+// const bottlesPromise = fetch('./Bottles.json').then(res => res.json())
+// const bottlesPromise2 = fetch('https://raw.githubusercontent.com/wdmoriom/bottles.data2/refs/heads/main/public/Bottles.json').then(res => res.json())
+
+const bottlesPromise = fetch('Bottles.json').then(res => res.json())
 
 function App() {
 
@@ -27,7 +29,7 @@ function App() {
       <h1>Bye Awesome Water Bottles</h1>
       <Index/>
       <Suspense fallback={<h3>Bottles are loading....</h3>}>
-        <Bottles  bottlesPromise={bottlesPromise2}></Bottles>
+        <Bottles  bottlesPromise={bottlesPromise}></Bottles>
       </Suspense>
      
 
