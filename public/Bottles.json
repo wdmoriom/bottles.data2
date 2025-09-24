@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "AquaPure Bottle",
+    "price": 15,
+    "color": "Blue",
+    "capacity": "1L",
+    "brand": "AquaPure"
+  },
+  {
+    "id": 2,
+    "name": "HydroMax Flask",
+    "price": 25,
+    "color": "Black",
+    "capacity": "1.5L",
+    "brand": "HydroMax"
+  },
+  {
+    "id": 3,
+    "name": "EcoSip Bottle",
+    "price": 12,
+    "color": "Green",
+    "capacity": "750ml",
+    "brand": "EcoSip"
+  },
+  {
+    "id": 4,
+    "name": "SteelWave Bottle",
+    "price": 30,
+    "color": "Silver",
+    "capacity": "1.2L",
+    "brand": "SteelWave"
+  },
+  {
+    "id": 5,
+    "name": "ChillMate Thermo",
+    "price": 20,
+    "color": "Red",
+    "capacity": "1L",
+    "brand": "ChillMate"
+  }
+]
